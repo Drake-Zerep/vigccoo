@@ -3,78 +3,32 @@
         "date": "2026-02-15",
         "title": "Reunión con RRHH sobre servicios descubiertos",
         "summary": "La sección sindical se reunió con la empresa para tratar la falta de personal en varios centros de trabajo.",
-        "link": "#"
+        "slug": "reunion-rrhh-febrero-2026",
+        "thumbnail": "assets/img/noticias/reunion-rrhh-thumb.jpg",
+        "image": "assets/img/noticias/reunion-rrhh.jpg"
     },
     {
         "date": "2026-02-10",
         "title": "Actualización del plus de nocturnidad",
         "summary": "Explicamos cómo queda el cálculo del plus de nocturnidad tras la última revisión del convenio.",
-        "link": "#"
+        "slug": "plus-nocturnidad-actualizacion",
+        "thumbnail": "assets/img/noticias/nocturnidad-thumb.jpg",
+        "image": "assets/img/noticias/nocturnidad.jpg"
     },
     {
         "date": "2026-02-03",
         "title": "Asamblea informativa en Santa Cruz",
         "summary": "Convocatoria abierta para toda la plantilla de Prosegur en la isla. Te contamos los puntos tratados.",
-        "link": "#"
+        "slug": "asamblea-santa-cruz-febrero",
+        "thumbnail": "assets/img/noticias/asamblea-thumb.jpg",
+        "image": "assets/img/noticias/asamblea.jpg"
     },
     {
         "date": "2026-01-28",
         "title": "Resumen de la negociación estatal",
         "summary": "Últimos avances en la mesa negociadora del Convenio Estatal de Seguridad Privada.",
-        "link": "#"
+        "slug": "negociacion-estatal-enero",
+        "thumbnail": "assets/img/noticias/negociacion-thumb.jpg",
+        "image": "assets/img/noticias/negociacion.jpg"
     }
-    [
-    {
-        "date": "2026-02-15",
-        "title": "Reunión con RRHH sobre servicios descubiertos",
-        "summary": "La sección sindical se reunió con la empresa para tratar la falta de personal en varios centros de trabajo.",
-        "link": "#"
-    },
-    {
-        "date": "2026-02-10",
-        "title": "Actualización del plus de nocturnidad",
-        "summary": "Explicamos cómo queda el cálculo del plus de nocturnidad tras la última revisión del convenio.",
-        "link": "#"
-    },
-    {
-        "date": "2026-02-03",
-        "title": "Asamblea informativa en Santa Cruz",
-        "summary": "Convocatoria abierta para toda la plantilla de Prosegur en la isla. Te contamos los puntos tratados.",
-        "link": "#"
-    },
-    {
-        "date": "2026-01-28",
-        "title": "Resumen de la negociación estatal",
-        "summary": "Últimos avances en la mesa negociadora del Convenio Estatal de Seguridad Privada.",
-        "link": "#"
-    }
-    [
-    {
-        "date": "2026-02-15",
-        "title": "Reunión con RRHH sobre servicios descubiertos",
-        "summary": "La sección sindical se reunió con la empresa para tratar la falta de personal en varios centros de trabajo.",
-        "slug": "reunion-rrhh-febrero-2026"
-    },
-    {
-        "date": "2026-02-10",
-        "title": "Actualización del plus de nocturnidad",
-        "summary": "Explicamos cómo queda el cálculo del plus de nocturnidad tras la última revisión del convenio.",
-        "slug": "plus-nocturnidad-actualizacion"
-    },
-    {
-        "date": "2026-02-03",
-        "title": "Asamblea informativa en Santa Cruz",
-        "summary": "Convocatoria abierta para toda la plantilla de Prosegur en la isla. Te contamos los puntos tratados.",
-        "slug": "asamblea-santa-cruz-febrero"
-    },
-    {
-        "date": "2026-01-28",
-        "title": "Resumen de la negociación estatal",
-        "summary": "Últimos avances en la mesa negociadora del Convenio Estatal de Seguridad Privada.",
-        "slug": "negociacion-estatal-enero"
-    }
-]
-
-]
-
 ]
