@@ -1,34 +1,50 @@
 [
-    {
-        "date": "2026-02-15",
-        "title": "Reunión con RRHH sobre servicios descubiertos",
-        "summary": "La sección sindical se reunió con la empresa para tratar la falta de personal en varios centros de trabajo.",
-        "slug": "reunion-rrhh-febrero-2026",
-        "thumbnail": "assets/img/noticias/reunion-rrhh-thumb.jpg",
-        "image": "assets/img/noticias/reunion-rrhh.jpg"
-    },
-    {
-        "date": "2026-02-10",
-        "title": "Actualización del plus de nocturnidad",
-        "summary": "Explicamos cómo queda el cálculo del plus de nocturnidad tras la última revisión del convenio.",
-        "slug": "plus-nocturnidad-actualizacion",
-        "thumbnail": "assets/img/noticias/nocturnidad-thumb.jpg",
-        "image": "assets/img/noticias/nocturnidad.jpg"
-    },
-    {
-        "date": "2026-02-03",
-        "title": "Asamblea informativa en Santa Cruz",
-        "summary": "Convocatoria abierta para toda la plantilla de Prosegur en la isla. Te contamos los puntos tratados.",
-        "slug": "asamblea-santa-cruz-febrero",
-        "thumbnail": "assets/img/noticias/asamblea-thumb.jpg",
-        "image": "assets/img/noticias/asamblea.jpg"
-    },
-    {
-        "date": "2026-01-28",
-        "title": "Resumen de la negociación estatal",
-        "summary": "Últimos avances en la mesa negociadora del Convenio Estatal de Seguridad Privada.",
-        "slug": "negociacion-estatal-enero",
-        "thumbnail": "assets/img/noticias/negociacion-thumb.jpg",
-        "image": "assets/img/noticias/negociacion.jpg"
-    }
+  {
+    "date": "2026-02-20",
+    "title": "Firmado el nuevo Convenio Estatal de Seguridad Privada 2026",
+    "summary": "Se firma el nuevo Convenio Estatal de Seguridad Privada con mejoras salariales y avances en conciliación.",
+    "slug": "firma-convenio-estatal-seguridad-2026",
+    "thumbnail": "assets/img/noticias/convenio-2026-thumb.jpg",
+    "image": "assets/img/noticias/convenio-2026.jpg"
+  },
+  {
+    "date": "2026-02-15",
+    "title": "Reunión con RRHH sobre servicios descubiertos en Tenerife",
+    "summary": "La sección sindical traslada a la empresa la sobrecarga de trabajo por falta de personal en varios servicios.",
+    "slug": "reunion-rrhh-servicios-descubiertos-tenerife",
+    "thumbnail": "assets/img/noticias/servicios-descubiertos-thumb.jpg",
+    "image": "assets/img/noticias/servicios-descubiertos.jpg"
+  },
+  {
+    "date": "2026-02-10",
+    "title": "Refuerzo de medidas de seguridad en centros conflictivos",
+    "summary": "Se acuerdan medidas adicionales de seguridad y protocolos ante incidentes en determinados centros de trabajo.",
+    "slug": "refuerzo-medidas-seguridad-centros-conflictivos",
+    "thumbnail": "assets/img/noticias/medidas-seguridad-thumb.jpg",
+    "image": "assets/img/noticias/medidas-seguridad.jpg"
+  },
+  {
+    "date": "2026-02-05",
+    "title": "Formación específica en PRL para vigilantes de Prosegur",
+    "summary": "Nueva acción formativa en prevención de riesgos laborales adaptada a la realidad de la seguridad privada.",
+    "slug": "formacion-prl-vigilantes-prosegur",
+    "thumbnail": "assets/img/noticias/formacion-prl-thumb.jpg",
+    "image": "assets/img/noticias/formacion-prl.jpg"
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Sentencia que reconoce descansos vulnerados en turnos partidos",
+    "summary": "Una reciente sentencia reconoce la vulneración de descansos en determinados cuadrantes con turnos partidos.",
+    "slug": "sentencia-descansos-turnos-partidos",
+    "thumbnail": "assets/img/noticias/sentencia-descansos-thumb.jpg",
+    "image": "assets/img/noticias/sentencia-descansos.jpg"
+  },
+  {
+    "date": "2026-01-20",
+    "title": "Inspección de Trabajo revisa jornadas y horas extra en el sector",
+    "summary": "Inspección de Trabajo intensifica el control sobre jornadas y horas extraordinarias en la seguridad privada.",
+    "slug": "inspeccion-trabajo-jornadas-horas-extra",
+    "thumbnail": "assets/img/noticias/inspeccion-trabajo-thumb.jpg",
+    "image": "assets/img/noticias/inspeccion-trabajo.jpg"
+  }
 ]
