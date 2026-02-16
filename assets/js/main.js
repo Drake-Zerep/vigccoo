@@ -20,7 +20,7 @@ async function loadNews() {
                 <span class="news-date">${date}</span>
                 <h3>${item.title}</h3>
                 <p>${item.summary}</p>
-                <a href="${item.link}" class="link-btn">Leer más</a>
+                <a href="noticias/${item.slug}.html" class="link-btn">Leer más</a>
             `;
 
             container.appendChild(card);
