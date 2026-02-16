@@ -167,43 +167,34 @@
         </section>
 
         <!-- Noticias -->
-        <section id="noticias" class="card-section alt-bg">
-            <h2>Noticias y comunicados</h2>
-            <p>
-                Actualidad de CCOO Hábitat, la sección sindical en Prosegur Santa Cruz de Tenerife
-                y el sector de la seguridad privada.
-            </p>
+        <section id="ultimas-noticias" class="card-section alt-bg">
+  <h2>Últimas noticias</h2>
+  <p>
+    Publicaciones recientes de la sección sindical: comunicados, reuniones, avisos y novedades del sector.
+  </p>
 
-            <div class="news-list">
-                <article class="news-item">
-                    <span class="news-date">12/02/2026</span>
-                    <h3>Reunión con la empresa sobre cuadrantes</h3>
-                    <p>
-                        Resumen de la última reunión con la dirección de Prosegur en Santa Cruz de Tenerife
-                        sobre cuadrantes, refuerzos y coberturas.
-                    </p>
-                    <a href="#" class="link-btn">Leer más</a>
-                </article>
+  <!-- Buscador de noticias -->
+  <div class="news-toolbar">
+    <input
+      type="text"
+      id="news-search"
+      placeholder="Buscar noticias por título o resumen..."
+      aria-label="Buscar noticias"
+    />
+  </div>
 
-                <article class="news-item">
-                    <span class="news-date">05/02/2026</span>
-                    <h3>Actualización de tablas salariales 2026</h3>
-                    <p>
-                        Publicadas las nuevas tablas salariales del Convenio Estatal de Seguridad Privada para 2026.
-                    </p>
-                    <a href="#" class="link-btn">Ver tablas</a>
-                </article>
+  <div id="news-container" class="news-grid">
+    <!-- Noticias cargadas dinámicamente -->
+  </div>
 
-                <article class="news-item">
-                    <span class="news-date">28/01/2026</span>
-                    <h3>Asamblea de trabajadores</h3>
-                    <p>
-                        Convocatoria de asamblea informativa para la plantilla de Prosegur en Santa Cruz de Tenerife.
-                    </p>
-                    <a href="#" class="link-btn">Detalles de la asamblea</a>
-                </article>
-            </div>
-        </section>
+  <!-- Botón Cargar más -->
+  <div class="news-load-more-wrapper">
+    <button id="news-load-more" class="btn secondary">
+      Cargar más noticias
+    </button>
+  </div>
+</section>
+
 
         <!-- Chat IA -->
         <section id="chat-ia" class="card-section chat-section">
