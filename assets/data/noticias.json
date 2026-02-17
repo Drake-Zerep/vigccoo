@@ -17,27 +17,5 @@
     "resumen": "Se acuerdan medidas adicionales de seguridad y protocolos ante incidentes en determinados centros de trabajo.",
     "contenido": "Tras varios incidentes registrados en centros conflictivos, se han acordado nuevas medidas de seguridad, incluyendo refuerzos de personal, protocolos de actuación y mejoras en la coordinación con las fuerzas de seguridad."
   }
-// FILTRO DE NOTICIAS
-document.querySelectorAll('.filter-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-
-        // Activar botón seleccionado
-        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-
-        const filtro = btn.dataset.filter;
-
-        // Mostrar/ocultar tarjetas según categoría
-        document.querySelectorAll('.news-card').forEach(card => {
-            const categoria = card.dataset.categoria;
-
-            if (filtro === "Todos" || categoria === filtro) {
-                card.style.display = "flex";
-            } else {
-                card.style.display = "none";
-            }
-        });
-    });
-});
 
 ]
