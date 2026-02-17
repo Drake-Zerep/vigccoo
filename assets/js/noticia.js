@@ -34,24 +34,37 @@ fetch("../assets/data/noticias.json")
       </a>
     `;
 
-    // Noticias relacionadas (misma categoría)
-    const relacionadas = noticias
-      .filter(n => n.categoria === noticia.categoria && n.id !== noticia.id)
-      .slice(0, 3);
+    // Noticias relacionadas avanzadas
+const relacionadas = noticias
+  .filter(n => n.categoria === noticia.categoria && n.id !== noticia.id)
+  .sort((a, b) => new Date(b.fecha) - new Date(a.fecha))
+  .slice(0, 3);
 
-    const contenedor = document.getElementById("relacionadas");
+const contenedor = document.getElementById("relacionadas");
 
-    relacionadas.forEach(n => {
-      const card = document.createElement("div");
-      card.classList.add("card");
+if (relacionadas.length === 0) {
+  contenedor.innerHTML = `<p style="color:var(--text-muted);">No hay noticias relacionadas.</p>`;
+} else {
+  relacionadas.forEach(n => {
+    const card = document.createElement("div");
+    card.classList.add("related-card");
 
-      card.innerHTML = `
-        <h3>${n.titulo}</h3>
-        <p>${n.resumen}</p>
-        <a class="btn secondary" href="noticia.html?id=${n.id}">Leer más</a>
-      `;
+    card.innerHTML = `
+      <div class="related-thumb">
+        <img src="../${n.imagen}" alt="${n.titulo}">
+      </div>
 
-      contenedor.appendChild(card);
-    });
+      <h4>${n.titulo}</h4>
+      <p>${n.resumen.substring(0, 90)}...</p>
+
+      <a class="btn secondary" href="noticia.html?id=${n.id}">
+        Leer más
+      </a>
+    `;
+
+    contenedor.appendChild(card);
+  });
+}
+
 
   });
