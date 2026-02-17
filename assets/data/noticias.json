@@ -1,0 +1,20 @@
+[
+  {
+    "id": "convenio-2026-firmado",
+    "titulo": "Firmado el nuevo Convenio Estatal de Seguridad Privada 2026",
+    "fecha": "2026-02-10",
+    "categoria": "Convenio",
+    "imagen": "assets/img/noticias/convenio-2026.jpg",
+    "resumen": "Se firma el nuevo Convenio Estatal de Seguridad Privada con mejoras salariales y avances en conciliación.",
+    "contenido": "El nuevo Convenio Estatal de Seguridad Privada 2026 introduce mejoras salariales, avances en conciliación y actualizaciones en varios pluses. La firma se ha producido tras semanas de negociación entre sindicatos y patronal."
+  },
+  {
+    "id": "refuerzo-medidas-centros-conflictivos",
+    "titulo": "Refuerzo de medidas de seguridad en centros conflictivos",
+    "fecha": "2026-02-10",
+    "categoria": "Empresa",
+    "imagen": "assets/img/noticias/medidas-seguridad.jpg",
+    "resumen": "Se acuerdan medidas adicionales de seguridad y protocolos ante incidentes en determinados centros de trabajo.",
+    "contenido": "Tras varios incidentes registrados en centros conflictivos, se han acordado nuevas medidas de seguridad, incluyendo refuerzos de personal, protocolos de actuación y mejoras en la coordinación con las fuerzas de seguridad."
+  }
+]
